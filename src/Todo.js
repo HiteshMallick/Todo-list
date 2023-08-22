@@ -46,7 +46,7 @@ function Todo() {
               
             );
           })}
-          {listData.length>=1 && <button onClick={removeAll}>Remove All</button>}
+          {listData.length >=1 && <button onClick={removeAll}>Remove All</button>}
           
       </div>
     </>
