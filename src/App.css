@@ -15,7 +15,7 @@ body{
   text-align: center;
 }
 .container{
-  background-color: rgb(0, 255, 136);
+  background-color: navy;
   justify-content: center;
   width: 50%;
   margin-left: 26%;
@@ -40,8 +40,9 @@ input[type=text], select{
 }
 
 button{
-  width: 15%;
+  width: 16.5%;
   background-color: red;
+  box-shadow: 0 0 10px red;
   color: black;
   padding: 12px 20px;
   margin: 8px 0;
@@ -54,7 +55,7 @@ button{
 button:hover{
   background-color: greenyellow;
   border: 1px solid greenyellow;
-  box-shadow: 0 0 40px greenyellow;
+  box-shadow: 0 0 10px greenyellow;
 }
 
 .list-heading{
@@ -81,4 +82,9 @@ button:hover{
   position: relative;
   left: 12%;
   top: -63px;
+}
+
+
+@media {
+  
 }
